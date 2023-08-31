@@ -1,0 +1,66 @@
+
+.container {
+   background-image: url("https://img.freepik.com/free-photo/healthy-diet-background-with-thyme-leaf-border_53876-106117.jpg?w=1380&t=st=1693134535~exp=1693135135~hmac=627589ff8130f7d3ff7ffa7c9930d763c29282dadded17bbb22e594a30392269");
+    align-items: center;
+  
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+/* body{
+    text-align: center;
+} */
+
+h1{
+    color: rgb(21, 75, 7);
+    font-family:cursive;
+    font-size: 250%;
+    margin : 20px 50px 15px 20px;
+    text-decoration: underline;
+
+}
+.card {
+    background: transparent;
+    
+
+}
+.card-text {
+    text-overflow: ellipsis;
+    text-align: left;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.card-img-top{
+    image: url(https://media.istockphoto.com/id/1130112004/photo/vegan-detox-buddha-bowl-with-turmeric-roasted-chickpeas-greens-avocado-persimmon-blood-orange.jpg?s=1024x1024&w=is&k=20&c=vxwp1UeZvlinBZGsIT2ow-4zqoul7x-B9m-dVLEpu5E=);
+    height : 300px !important;
+    width: 300px !important;
+    place-items: center;
+    justify-content: center !important; 
+    margin-top: 2%;
+}
+
+
+.rec_btn{
+    margin-right: 100px;
+    }
+
+.img_btn{
+    margin-left: 50px;
+}
+
+label {
+    width:120px;
+    margin-left: 30%;
+    font-weight:bold;
+    text-align:left;
+    padding-right:0px;
+}
+
+input, label {
+   text-align: center;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+    float:left;
+}

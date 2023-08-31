@@ -1,0 +1,36 @@
+
+<html>
+
+<router-outlet></router-outlet>
+
+<head>
+    <link rel="stylesheet" href="app.component.css">
+</head>
+
+<body>
+<div class="container">
+    <div align="center">
+        
+        <h1 >Recipe AI</h1><br>
+
+        <label for="token"  >Token:</label>
+            <input style="padding-left:10px;" type="text" id="token" name="token" [(ngModel)]="recipeinput.token"/><br><br>
+
+        <label for="inputText">Recipe Name:</label>
+            <input style="padding-left:10px;" type="text" id="inputText" name="inputText"  [(ngModel)]="recipeinput.inputText"/><br><br>
+
+            <button style="margin:5px;" id="img_btn" (click)="generate_Image()" class="btn btn-outline-success">Generate Image</button>
+        <button style="margin:5px;" id="g_r_btn" (click)="onclick_generate_recipe()" class="btn btn-outline-success">Generate Recipe</button><br><br>
+        
+        <div class="card" style="width: 45rem;">
+            <img  [src]="imageToShow" id="recipeImage-card" class="card-img-top mx-auto" alt="Image:">
+    
+            <div class="card-body" >
+              <h5 class="card-title">Here is the recipe:</h5>
+              <p class="card-text" style="white-space: pre"  [(ngModel)]="fullRecipe">{{fullRecipe}}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
