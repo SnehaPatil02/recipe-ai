@@ -33,5 +33,5 @@ openai.api-key=YOUR_OPENAI_API_KEY
 
 ### Screenshot
 
-![RecipeAI Screenshot](http://C:/MachineLearningProjects/recipe-ai/RecipeAIScreenshot.png "RecipeAI Screenshot")
+![RecipeAI Screenshot](https://github.com/SnehaPatil02/recipe-ai/blob/main/RecipeAI%20Sceernshot.png "RecipeAI Screenshot")
  
